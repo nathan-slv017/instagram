@@ -1,0 +1,35 @@
+.container {
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+}
+
+.app-bar {
+  width: 100%;
+  height: 52px;
+  background-color: white;
+  border-bottom: 1px solid #dbdbdb;
+}
+
+.content {
+  width: 45%;
+  background-color: wheat;
+  max-width: 1200px;
+  height: 300px;
+  background: white;
+}
+
+.indicate-bar {
+  width: 30%;
+  background-color: yellow;
+  height: 100px;
+}
+
+@media only screen and (max-width: 1010px) {
+  .indicate-bar {
+    display: none;
+  }
+  .content {
+    width: 600px;
+  }
+}
