@@ -13,10 +13,8 @@
 
 .content {
   width: 45%;
-  background-color: wheat;
   max-width: 1200px;
   height: 300px;
-  background: white;
 }
 
 .indicate-bar {
@@ -25,11 +23,24 @@
   height: 100px;
 }
 
+.storys {
+  width: 100%;
+  height: 120px;
+  background-color: white;
+  margin: 30px auto;
+  border: 1px solid #dbdbdb;
+  border-radius: 5px;
+}
+
 @media only screen and (max-width: 1010px) {
   .indicate-bar {
     display: none;
   }
   .content {
     width: 600px;
+  }
+
+  .storys {
+    width: 600;
   }
 }

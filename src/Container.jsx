@@ -3,7 +3,11 @@ import React from "react";
 import "./Container.css";
 import AppBar from "./pages/home/components/AppBar";
 
+import Database from "./DataBase.json";
+
 export default function Container() {
+  console.log(Database);
+
   return (
     <>
       <div className="app-bar">

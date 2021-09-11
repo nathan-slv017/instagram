@@ -2,10 +2,10 @@
     "posts": [
         {
             "name": "Nathan",
-            "profilePicture": "url('./dataBase/foto1.webp')",
+            "profilePicture": "url('../../../dataBase/foto1.webp')",
             "post": {
                 "legend": "dia inesquecivel",
-                "photo": "url('./dataBase/foto1.webp')",
+                "photo": "../../dataBase/foto1.webp",
                 "publicationDate": "11/09/2021",
                 "likes": "0"
             }
