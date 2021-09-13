@@ -2,6 +2,7 @@
     "posts": [
         {
             "name": "Nathan",
+            "username": "nathan_slv017",
             "profilePicture": "url('../../../dataBase/foto1.webp')",
             "post": {
                 "legend": "dia inesquecivel",
@@ -12,6 +13,7 @@
         },
         {
             "name": "Paula",
+            "username": "Paulinha123",
             "profilePicture": "url('./dataBase/foto2.jpg)",
             "post": {
                 "legend": "Repostagem sobre a nova variante do corona virus",
@@ -22,6 +24,7 @@
         },
         {
             "name": "Beatriz",
+            "username": "bia022",
             "profilePicture": "url('./dataBase/foto3.jpg)",
             "post": {
                 "legend": "Minha filha brincando 💕💕💕",
@@ -32,6 +35,7 @@
         },
         {
             "name": "FatosHistoricos",
+            "username": "fatoshistoricos",
             "profilePicture": "url('./dataBase/foto4.jpg')",
             "post": {
                 "legend": "Medicos fazendo exames em um cadaver, 1892",
@@ -42,6 +46,7 @@
         },
         {
             "name": "Covid24Horas",
+            "username": "covid24h",
             "profilePicture": "url('./dataBase/foto5.jpg')",
             "post": {
                 "legend": "Entrada de um aeroporto",
@@ -52,6 +57,7 @@
         },
         {
             "name": "Luiz",
+            "username": "luiz123_098",
             "profilePicture": "url('./dataBase/foto6.jpg')",
             "post": {
                 "legend": "comemorando o meu 65° aniversário 🤳🤳",
@@ -62,6 +68,7 @@
         },
         {
             "name": "Policia",
+            "username": "Ppolicial",
             "profilePicture": "url('./dataBase/foto7.jpeg')",
             "post": {
                 "legend": "Dia de busca e aprienção",
@@ -72,6 +79,7 @@
         },
         {
             "name": "Fotebol",
+            "username": "fotebol132221",
             "profilePicture": "url('./dataBase/foto8.webp')",
             "post": {
                 "legend": "Flamengo X Corinthians",
@@ -82,6 +90,7 @@
         },
         {
             "name": "#sejaUmOlho",
+            "username": "#sejaumolho",
             "profilePicture": "url('./dataBase/foto9.webp')",
             "post": {
                 "legend": "Os olhos são as janelas da alma",
@@ -92,6 +101,7 @@
         },
         {
             "name": "Chevrolet",
+            "username": "chevrolet",
             "profilePicture": "url('./dataBase/foto10.jpg')",
             "post": {
                 "legend": "os caros estão caríssimos",
