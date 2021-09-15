@@ -1,0 +1,14 @@
+.story {
+  margin: 10px;
+  width: 100px;
+  height: 100px;
+  background: linear-gradient(#e66465, #9198e5);
+  border-radius: 50%;
+}
+
+.story img {
+  margin-top: 5px;
+  border-radius: 50%;
+  width: 90px;
+  height: 90px;
+}

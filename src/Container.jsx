@@ -7,6 +7,7 @@ import DataBase from "./DataBase.json";
 
 import Post from "./pages/home/components/Post";
 import IndicateBar from "./pages/home/components/IndicateBar";
+import Story from "./pages/home/components/Story";
 
 export default function Container() {
   const fotos = [
@@ -30,7 +31,11 @@ export default function Container() {
 
       <div className="container">
         <div className="content">
-          <div className="storys"></div>
+          <div className="storys">
+            {fotos.map((foto) => (
+              <Story fotos={foto} />
+            ))}
+          </div>
           <div className="posts">
             {fotos.map((foto, index) => (
               <Post foto={foto} descricao={DataBase.posts[index]} />

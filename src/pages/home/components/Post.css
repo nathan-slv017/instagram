@@ -38,19 +38,17 @@
 }
 
 .descricao {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+  display: block;
   padding: 10px 20px;
 }
 
 .legenda {
-  display: flex;
   margin-left: 30px;
 }
 
 .curtir {
   display: flex;
   justify-items: center;
+  margin-left: 30px;
   align-items: center;
 }

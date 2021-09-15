@@ -22,12 +22,15 @@
 }
 
 .storys {
+  display: flex;
   width: 100%;
   height: 120px;
   background-color: white;
   margin: 30px auto;
   border: 1px solid #dbdbdb;
   border-radius: 5px;
+  overflow-x: scroll;
+  overflow-y: hidden;
 }
 
 @media only screen and (max-width: 1010px) {
