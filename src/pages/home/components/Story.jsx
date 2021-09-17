@@ -1,14 +1,19 @@
 import React from "react";
 
+import { Link } from "react-router-dom";
+
 import "./Story.css";
 
-export default function Story({ fotos }) {
-  console.log(fotos);
+export default function Story({ fotos, ordem }) {
+  const storyPath = "/story" + ordem;
+
   return (
     <>
-      <div className="story">
-        <img src={fotos.default} />
-      </div>
+      <Link to={storyPath}>
+        <div className="story">
+          <img src={fotos.default} />
+        </div>
+      </Link>
     </>
   );
 }

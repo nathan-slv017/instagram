@@ -32,8 +32,8 @@ export default function Container() {
       <div className="container">
         <div className="content">
           <div className="storys">
-            {fotos.map((foto) => (
-              <Story fotos={foto} />
+            {fotos.map((foto, index) => (
+              <Story fotos={foto} ordem={index} />
             ))}
           </div>
           <div className="posts">
